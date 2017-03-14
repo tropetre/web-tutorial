@@ -1,0 +1,11 @@
+﻿{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "lib": [ "es6", "dom" ],
+    "types": [
+      "./node_modules/@types/node/index.d.ts"
+    ],
+    "rootDir": "./",
+    "target": "es5"
+  }
+}
