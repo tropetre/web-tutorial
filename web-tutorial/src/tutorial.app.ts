@@ -6,4 +6,4 @@
         <h1>hellå?</h1>
     `
 })
-export class AppComponent { }
+export class TutorialApp { }

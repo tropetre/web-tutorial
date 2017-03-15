@@ -1,6 +1,6 @@
 ﻿import { NgModule } from '@angular/core';
 import { BrowserModule }  from '@angular/platform-browser';
-import { AppComponent } from './app.component';
+import { TutorialApp } from './tutorial.app';
 
 
 @NgModule({
@@ -8,8 +8,8 @@ import { AppComponent } from './app.component';
         BrowserModule
     ],
     declarations: [
-        AppComponent
+        TutorialApp
     ],
-    bootstrap: [AppComponent]
+    bootstrap: [TutorialApp]
 })
 export class AppModule { }

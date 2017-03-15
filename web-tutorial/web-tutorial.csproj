@@ -35,7 +35,7 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="boot.ts" />
-    <TypeScriptCompile Include="src\app.component.ts" />
+    <TypeScriptCompile Include="src\tutorial.app.ts" />
     <TypeScriptCompile Include="src\module.ts" />
   </ItemGroup>
   <PropertyGroup>

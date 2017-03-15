@@ -12,7 +12,7 @@ var webpackConfiguration = function () {
   }
 
   config.entry = {
-    'boot': './src/boot.js',
+    'boot': './boot.ts',
   }
 
   config.output = {
@@ -25,11 +25,11 @@ var webpackConfiguration = function () {
     loaders: [
       {
         test: /\.ts$/,
-        include: /ClientApp/,
         loaders: [
-            'ts',
-            'angular2-router-loader'
+            'awesome-typescript-loader',
+            'angular-router-loader'
         ]
+          // exclude: [/node_modules\/(?!(ng2-.+|ngx-.+))/] (if @angular causes issues)
       },
       { test: /\.html$/, loader: 'raw' },
       { test: /\.css$/, loader: 'to-string!css' },
