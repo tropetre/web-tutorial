@@ -1,11 +1,13 @@
 ﻿import { NgModule } from '@angular/core';
-import { BrowserModule }  from '@angular/platform-browser';
+import { BrowserModule } from '@angular/platform-browser';
+import { DevExtremeModule } from 'devextreme-angular';
 import { TutorialApp } from './tutorial.app';
 
 
 @NgModule({
     imports: [
-        BrowserModule
+        BrowserModule,
+        DevExtremeModule
     ],
     declarations: [
         TutorialApp
