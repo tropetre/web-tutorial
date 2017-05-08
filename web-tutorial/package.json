@@ -18,19 +18,21 @@
     "@angular/platform-server": "^2.4.2",
     "@angular/router": "^3.4.2",
     "@types/node": "^6.0.38",
-    "zone.js": "^0.8.1",
-
-    "rxjs": "^5.2.0",
+    "bootstrap": "^3.3.7",
+    "devextreme": "^16.2.6",
+    "devextreme-angular": "^16.2.6",
     "jquery": "^3.1.1",
-    "bootstrap": "^3.3.7"
+    "rxjs": "^5.2.0",
+    "zone.js": "^0.8.1"
   },
   "devDependencies": {
-    "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.4.2",
-    "typescript": "^2.2.1",
     "angular-router-loader": "^0.5.0",
     "awesome-typescript-loader": "^3.1.2",
-    "reflect-metadata": "^0.1.10"
+    "extract-text-webpack-plugin": "^2.1.0",
+    "reflect-metadata": "^0.1.10",
+    "typescript": "^2.2.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
   },
   "scripts": {
     "start": "webpack-dev-server --port 3000"
