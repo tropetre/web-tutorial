@@ -14,7 +14,7 @@ var webpackConfiguration = function () {
     }
 
     config.entry = {
-        'boot': './boot.ts',
+        'main': './main.ts',
     }
 
     config.output = {

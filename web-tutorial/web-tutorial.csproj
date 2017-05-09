@@ -34,9 +34,11 @@
     <Content Include="webpack.config.js" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="boot.ts" />
-    <TypeScriptCompile Include="src\tutorial.app.ts" />
-    <TypeScriptCompile Include="src\module.ts" />
+    <TypeScriptCompile Include="main.ts" />
+    <TypeScriptCompile Include="src\components\index.ts" />
+    <TypeScriptCompile Include="src\components\tutorial-app.component.ts" />
+    <TypeScriptCompile Include="src\app.module.ts" />
+    <TypeScriptCompile Include="src\services\index.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>

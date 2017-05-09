@@ -1,7 +1,7 @@
 ﻿import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { DevExtremeModule } from 'devextreme-angular';
-import { TutorialApp } from './tutorial.app';
+import { TutorialApp } from './components';
 
 
 @NgModule({
